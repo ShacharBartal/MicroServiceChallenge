@@ -12,6 +12,22 @@ type person struct{
 	FamilyName string
 }
 
+func getNameToOurJson(client *http.Client, url string, p *person){
+	result , err := infrastructure(client, url)
+	if err != nil { // we didnt success the command above ^
+		fmt.Printf("infrastructure error: %v\n", err)
+	} else { // succeess
+		fmt.Printf("raw response: %s\n", string(result))
+		err := json.Unmarshal(result, &p) // convert result to p1
+		if err != nil {
+			fmt.Printf("unmarshal error: %v\n", err)
+		} else {
+			fmt.Printf("New name response: %+v\n", p)
+		}
+
+	}
+}
+
 
 func main(){
 	fmt.Println("Hello from base")
@@ -20,12 +36,17 @@ func main(){
 
 	client := &http.Client{} // define MicroChallengeBase as a client
 
-	//will get familyName with following command:
-	familyNameMicroServiceResponse , err := infrastructure(client, "http://127.0.0.1:8081/familyName")
+	//will get familyName with following commands
 
+	getNameToOurJson(client, "http://127.0.0.1:8081/familyName", &p1)
+	getNameToOurJson(client, "http://127.0.0.1:8082/firstName", &p1)
+
+	//familyNameMicroServiceResponse , err := infrastructure(client, "http://127.0.0.1:8081/familyName")
+
+/*
 	if err != nil { // we didnt success the command above ^
 		fmt.Printf("infrastructure error: %v\n", err)
-	} else { // successed
+	} else { // succeess
 		fmt.Printf("raw response: %s\n", string(familyNameMicroServiceResponse))
 		err := json.Unmarshal(familyNameMicroServiceResponse, &p1) // convert familyNameMicroServiceResponse to p1
 		if err != nil {
@@ -34,7 +55,7 @@ func main(){
 			fmt.Printf("Family name response: %+v\n", p1)
 		}
 
-	}
+	}*/
 
 }
 
@@ -42,12 +63,12 @@ func main(){
 // send http request
 // convert byte[] response to string
 func infrastructure(client *http.Client, url string) ([]byte, error) {
-	req, err := http.NewRequest("GET", url, nil)
-	resp, err := client.Do(req)
+	req, err := http.NewRequest("GET", url, nil) // define req as request to the GET function
+	resp, err := client.Do(req) // do the request
 	if err != nil {
 		return nil, fmt.Errorf("client req error: " + err.Error())
-	} else {
-		responseBody, err := ioutil.ReadAll(resp.Body)
+	} else { // if there is an error, return nil and the error message
+		responseBody, err := ioutil.ReadAll(resp.Body) // responseBody will get the body of "resp" - the output from the GET request.
 		if err != nil {
 			return nil, fmt.Errorf("body read error: " + err.Error())
 		} else {

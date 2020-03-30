@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fea0fd6d-6e8b-4a90-8ef5-57f4b5438fcb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroChallengeFamilyName/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go_build_main_go" beforeDir="false" afterPath="$PROJECT_DIR$/go_build_main_go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MicroChallengeFamilyName/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroChallengeFamilyName/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MicroChallengeFamilyName/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroChallengeFamilyName/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroChallengeFirstName/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroChallengeFirstName/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroChallengeFirstName/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroChallengeFirstName/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +40,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -95,7 +95,9 @@
       <workItem from="1585129904041" duration="536000" />
       <workItem from="1585130957092" duration="20000" />
       <workItem from="1585231873772" duration="60000" />
-      <workItem from="1585246757518" duration="1678000" />
+      <workItem from="1585246757518" duration="1974000" />
+      <workItem from="1585553369775" duration="44000" />
+      <workItem from="1585553536068" duration="1443000" />
     </task>
     <servers />
   </component>
@@ -119,25 +121,25 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="415" y="93" key="#go_build_main.go_main.go/0.0.1440.900@0.0.1440.900" timestamp="1585130779202" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1585248551950">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1585555351237">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585248551950" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585555351237" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1584864633785" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1585248551949">
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1585555351235">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585248551949" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585555351235" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1584864633784" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1585248551949">
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1585555351234">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585248551949" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585555351234" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1584864633783" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1585248551950">
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1585555351236">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585248551950" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585555351236" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1584864633784" />
     <state x="397" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1585231873945">
       <screen x="0" y="0" width="1440" height="900" />
@@ -147,9 +149,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="86" y="123" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1584863351007" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1585247664818">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1585554621927">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1585247664818" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1585554621927" />
   </component>
 </project>

@@ -17,7 +17,7 @@ func main(){
 
 	fmt.Printf("Hello from first name") // print for debug
 	router := gin.Default() // create a router
-	router.GET("/getFirstName", getFirstName) // create a get method
-	router.Run(":8014") // run the router
+	router.GET("/firstName", getFirstName) // create a get method
+	router.Run(":8082") // run the router
 
 }
