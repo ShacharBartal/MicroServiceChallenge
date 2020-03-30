@@ -18,13 +18,8 @@ func getFamilyName(context *gin.Context){
 
 func main(){
 	fmt.Printf("Hello from family name ")
-	//creating the remote:
-	router := gin.Default()
-
-	//declare - if we go to address/FamilyName - we will go to getFamilyName() function
-	router.GET("/familyName", getFamilyName)
-
-	//running our router on 8081 port
-	router.Run(":8081")
+	router := gin.Default() //creating the remote
+	router.GET("/familyName", getFamilyName) //declare - if we go to address/FamilyName - we will go to getFamilyName() function
+	router.Run(":8081") //running our router on 8081 port
 }
 

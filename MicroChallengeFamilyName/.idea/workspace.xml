@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="950d7497-b7e0-4c7a-aa3c-b3d415cb1f33" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../MicroChallengeBase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroChallengeBase/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MicroChallengeBase/go_build_main_go" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroChallengeBase/go_build_main_go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MicroChallengeBase/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroChallengeBase/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MicroChallengeFirstName/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroChallengeFirstName/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MicroChallengeFirstName/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroChallengeFirstName/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +89,7 @@
       <workItem from="1585131001696" duration="2368000" />
       <workItem from="1585134419832" duration="307000" />
       <workItem from="1585231937309" duration="884000" />
-      <workItem from="1585553414556" duration="899000" />
+      <workItem from="1585553414556" duration="919000" />
     </task>
     <servers />
   </component>

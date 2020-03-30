@@ -31,32 +31,12 @@ func getNameToOurJson(client *http.Client, url string, p *person){
 
 func main(){
 	fmt.Println("Hello from base")
-
 	p1 := person{}
-
 	client := &http.Client{} // define MicroChallengeBase as a client
-
 	//will get familyName with following commands
 
 	getNameToOurJson(client, "http://127.0.0.1:8081/familyName", &p1)
 	getNameToOurJson(client, "http://127.0.0.1:8082/firstName", &p1)
-
-	//familyNameMicroServiceResponse , err := infrastructure(client, "http://127.0.0.1:8081/familyName")
-
-/*
-	if err != nil { // we didnt success the command above ^
-		fmt.Printf("infrastructure error: %v\n", err)
-	} else { // succeess
-		fmt.Printf("raw response: %s\n", string(familyNameMicroServiceResponse))
-		err := json.Unmarshal(familyNameMicroServiceResponse, &p1) // convert familyNameMicroServiceResponse to p1
-		if err != nil {
-			fmt.Printf("unmarshal error: %v\n", err)
-		} else {
-			fmt.Printf("Family name response: %+v\n", p1)
-		}
-
-	}*/
-
 }
 
 // create http request
